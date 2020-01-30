@@ -18,6 +18,7 @@ export declare class ElDatePickerPanel implements OnInit, OnChanges {
     showTime: boolean;
     currentView: string;
     dateShowModels: DateModelItem;
+    montNames: Array<string>;
     constructor(root: ElDataPicker);
     showPicker(pickPath: string): void;
     updateDate(): void;
