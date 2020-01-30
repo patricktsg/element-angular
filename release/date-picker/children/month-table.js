@@ -4,9 +4,9 @@ var EMonthTable = /** @class */ (function () {
         this.showWeekNumber = false;
         this.modelChange = new EventEmitter();
         this.monthRows = [
-            ['January', 'February', 'March', 'April'],
-            ['May', 'June', 'July', 'August'],
-            ['September', 'October', 'November', 'December'],
+            ['Jan', 'Feb', 'Mar', 'Apr'],
+            ['May', 'Jun', 'Jul', 'Aug'],
+            ['Sep', 'Oct', 'Nov', 'Dec'],
         ];
     }
     /**

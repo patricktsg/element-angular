@@ -10250,7 +10250,7 @@ var ElDatePickerProps = /** @class */ (function () {
         this.changeOnBlur = false;
         this.align = 'left'; // enum: left, center, right
         this.type = 'date'; // enum: year/month/date/week/datetime/datetimerange/daterange
-        this.placeholder = '选择日期';
+        this.placeholder = 'Pick a day';
         this.format = 'yyyy-MM-dd';
         this.hiddenDay = false;
         this.panelAbsolute = true;
@@ -10542,7 +10542,7 @@ function ElDatePickerPanel_tsickle_Closure_declarations() {
 var ElDateTable = /** @class */ (function () {
     function ElDateTable() {
         this.modelChange = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
-        this.weeks = ['日', '一', '二', '三', '四', '五', '六'];
+        this.weeks = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         this.tableRows = [[], [], [], [], [], []];
         this.targetMonthOffset = 0; // default: current month, offset = 0
     }
@@ -10815,9 +10815,9 @@ var EMonthTable = /** @class */ (function () {
         this.showWeekNumber = false;
         this.modelChange = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
         this.monthRows = [
-            ['January', 'February', 'March', 'April'],
-            ['May', 'June', 'July', 'August'],
-            ['September', 'October', 'November', 'December'],
+            ['Jan', 'Feb', 'Mar', 'Apr'],
+            ['May', 'Jun', 'Jul', 'Aug'],
+            ['Sep', 'Oct', 'Nov', 'Dec'],
         ];
     }
     /**

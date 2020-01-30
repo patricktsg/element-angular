@@ -3,7 +3,7 @@ import { DateFormat } from '../utils/format';
 var ElDateTable = /** @class */ (function () {
     function ElDateTable() {
         this.modelChange = new EventEmitter();
-        this.weeks = ['日', '一', '二', '三', '四', '五', '六'];
+        this.weeks = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         this.tableRows = [[], [], [], [], [], []];
         this.targetMonthOffset = 0; // default: current month, offset = 0
     }
