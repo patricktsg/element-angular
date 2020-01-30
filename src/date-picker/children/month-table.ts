@@ -28,9 +28,9 @@ export class EMonthTable implements OnInit, OnChanges {
   date: Date
   
   monthRows: any[] = [
-    ['一月', '二月', '三月', '四月'],
-    ['五月', '六月', '七月', '八月'],
-    ['九月', '十月', '十一月', '十二月'],
+    ['Jan', 'Feb', 'Mar', 'Apr'],
+    ['May', 'Jun', 'Jul', 'Aug'],
+    ['Sep', 'Oct', 'Nov', 'Dec'],
   ]
   
   clickHandle(i: number, k: number): void {
