@@ -87,7 +87,7 @@
     "element-ui": "2.0.7",
     "extract-text-webpack-plugin": "^3.0.0",
     "gh-pages": "^1.0.0",
-    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp": "^4.0.2",
     "gulp-cached": "^1.1.1",
     "gulp-tslint": "^8.1.1",
     "highlight.js": "^9.12.0",
