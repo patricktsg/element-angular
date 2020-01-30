@@ -8,5 +8,4 @@ temp
 .vscode
 *.log
 *.log.*
-bundle
-release
+/theme/theme-chalk
