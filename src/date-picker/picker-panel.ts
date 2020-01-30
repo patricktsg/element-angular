@@ -47,7 +47,7 @@ export type DateModelItem = {
             <span class="el-date-picker__header-label"
               [class.active]="currentView === 'month'"
               (click)="showPicker('month')"
-              *ngIf="currentView === 'date'">{{montNames[dateShowModels.month]}} 月</span>
+              *ngIf="currentView === 'date'">{{montNames[dateShowModels.month]}}</span>
             <button class="el-picker-panel__icon-btn el-date-picker__next-btn el-icon-d-arrow-right"
               type="button" (click)="nextYear(1)">
             </button>
