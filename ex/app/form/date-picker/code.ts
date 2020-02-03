@@ -38,4 +38,9 @@ handle(time: number): void {
   [elDisabled]="true">
 </el-date-picker>
 `,
+
+`
+<el-datetime-picker>
+</el-datetime-picker>
+`,
 ]

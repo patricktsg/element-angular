@@ -1,0 +1,12 @@
+{
+  "name": "Container Attributes",
+  "attrs": [
+    {
+      "name": "direction",
+      "notes": "子元素的排列方向 ",
+      "type": "string",
+      "enum": "horizontal / vertical",
+      "default": "horizontal"
+    }
+  ]
+}
