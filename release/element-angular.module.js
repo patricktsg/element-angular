@@ -27,6 +27,7 @@ import { ElCardsModule } from './card/module';
 import { ElDropdownModule } from './dropdown/module';
 import { ElBreadcrumbsModule } from './breadcrumb/module';
 import { ElDateModule } from './date-picker/module';
+import { ElDateTimeModule } from './datetime-picker/module';
 import { ElSliderModule } from './slider/module';
 import { ElDialogModule } from './dialog/module';
 import { ElCarouselModule } from './carousel/module';
@@ -45,7 +46,7 @@ export var /** @type {?} */ ElChildModules = {
     ElSharedModule: ElSharedModule, ElNotificationModule: ElNotificationModule, ElCascaderModule: ElCascaderModule, ElBadgesModule: ElBadgesModule, ElCardsModule: ElCardsModule, ElDropdownModule: ElDropdownModule,
     ElBreadcrumbsModule: ElBreadcrumbsModule, ElDateModule: ElDateModule, ElSliderModule: ElSliderModule, ElDialogModule: ElDialogModule, ElCarouselModule: ElCarouselModule, ElCollapseModule: ElCollapseModule,
     ElAlertModule: ElAlertModule, ElPaginationModule: ElPaginationModule, ElUploadModule: ElUploadModule, ElTableModule: ElTableModule, ElContainerModule: ElContainerModule, ElFormModule: ElFormModule,
-    ElTreeModule: ElTreeModule,
+    ElTreeModule: ElTreeModule, ElDateTimeModule: ElDateTimeModule
 };
 export var /** @type {?} */ ELMODULES_GROUP = [
     ElButtonsModule, ElIconsModule, ElRadiosModule, ElMenusModule, ElTooltipModule, ElRowModule,
@@ -54,7 +55,7 @@ export var /** @type {?} */ ELMODULES_GROUP = [
     ElSharedModule, ElNotificationModule, ElCascaderModule, ElBadgesModule, ElCardsModule, ElDropdownModule,
     ElBreadcrumbsModule, ElDateModule, ElSliderModule, ElDialogModule, ElCarouselModule, ElCollapseModule,
     ElAlertModule, ElPaginationModule, ElUploadModule, ElTableModule, ElContainerModule, ElFormModule,
-    ElTreeModule,
+    ElTreeModule, ElDateTimeModule
 ];
 var ElModule = /** @class */ (function () {
     function ElModule() {
@@ -80,7 +81,7 @@ var ElModule = /** @class */ (function () {
                         ElBreadcrumbsModule.forRoot(), ElDateModule.forRoot(), ElSliderModule.forRoot(), ElDialogModule.forRoot(),
                         ElCarouselModule.forRoot(), ElCollapseModule.forRoot(), ElAlertModule.forRoot(), ElPaginationModule.forRoot(),
                         ElUploadModule.forRoot(), ElTableModule.forRoot(), ElContainerModule.forRoot(), ElFormModule.forRoot(),
-                        ElTreeModule.forRoot(),
+                        ElTreeModule.forRoot(), ElDateTimeModule.forRoot()
                     ],
                     exports: ELMODULES_GROUP,
                 },] },

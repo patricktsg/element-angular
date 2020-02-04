@@ -28,6 +28,7 @@ import { ElCardsModule } from './card/module'
 import { ElDropdownModule } from './dropdown/module'
 import { ElBreadcrumbsModule } from './breadcrumb/module'
 import { ElDateModule } from './date-picker/module'
+import { ElDateTimeModule } from './datetime-picker/module'
 import { ElSliderModule } from './slider/module'
 import { ElDialogModule } from './dialog/module'
 import { ElCarouselModule } from './carousel/module'
@@ -47,7 +48,7 @@ export const ElChildModules: any = {
   ElSharedModule, ElNotificationModule, ElCascaderModule, ElBadgesModule, ElCardsModule, ElDropdownModule,
   ElBreadcrumbsModule, ElDateModule, ElSliderModule, ElDialogModule, ElCarouselModule, ElCollapseModule,
   ElAlertModule, ElPaginationModule, ElUploadModule, ElTableModule, ElContainerModule, ElFormModule,
-  ElTreeModule,
+  ElTreeModule, ElDateTimeModule
 }
 export const ELMODULES_GROUP: any[] = [
   ElButtonsModule, ElIconsModule, ElRadiosModule, ElMenusModule, ElTooltipModule, ElRowModule,
@@ -56,7 +57,7 @@ export const ELMODULES_GROUP: any[] = [
   ElSharedModule, ElNotificationModule, ElCascaderModule, ElBadgesModule, ElCardsModule, ElDropdownModule,
   ElBreadcrumbsModule, ElDateModule, ElSliderModule, ElDialogModule, ElCarouselModule, ElCollapseModule,
   ElAlertModule, ElPaginationModule, ElUploadModule, ElTableModule, ElContainerModule, ElFormModule,
-  ElTreeModule,
+  ElTreeModule, ElDateTimeModule
 ]
 
 @NgModule({
@@ -70,7 +71,7 @@ export const ELMODULES_GROUP: any[] = [
     ElBreadcrumbsModule.forRoot(), ElDateModule.forRoot(), ElSliderModule.forRoot(), ElDialogModule.forRoot(),
     ElCarouselModule.forRoot(), ElCollapseModule.forRoot(), ElAlertModule.forRoot(), ElPaginationModule.forRoot(),
     ElUploadModule.forRoot(), ElTableModule.forRoot(), ElContainerModule.forRoot(), ElFormModule.forRoot(),
-    ElTreeModule.forRoot(),
+    ElTreeModule.forRoot(), ElDateTimeModule.forRoot()
   ],
   exports: ELMODULES_GROUP,
 })
