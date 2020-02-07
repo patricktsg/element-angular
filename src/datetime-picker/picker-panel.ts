@@ -111,10 +111,10 @@ export class ElDateTimePickerPanel extends ElDatePickerPanel implements OnInit, 
 
   @Output()
   closePanel : EventEmitter<any> = new EventEmitter();
-  private hours: Array<string>;
-  private minutes: Array<string>;
-  private hour: string;
-  private minute: string;
+  public hours: Array<string>;
+  public minutes: Array<string>;
+  public hour: string;
+  public minute: string;
 
   /**
    * on Init implementation
