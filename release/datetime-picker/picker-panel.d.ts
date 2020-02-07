@@ -2,10 +2,10 @@ import { EventEmitter, OnChanges, OnInit } from '@angular/core';
 import { ElDatePickerPanel } from '../date-picker/picker-panel';
 export declare class ElDateTimePickerPanel extends ElDatePickerPanel implements OnInit, OnChanges {
     closePanel: EventEmitter<any>;
-    private hours;
-    private minutes;
-    private hour;
-    private minute;
+    hours: Array<string>;
+    minutes: Array<string>;
+    hour: string;
+    minute: string;
     /**
      * on Init implementation
      * @return void;

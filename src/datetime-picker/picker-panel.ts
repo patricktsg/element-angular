@@ -55,7 +55,7 @@ import {ElDatePickerPanel} from '../date-picker/picker-panel';
               type="button" (click)="nextMonth(-1)"
               *ngIf="currentView === 'date'">
             </button>
-            
+
             <!--year label-->
             <span class="el-date-picker__header-label" *ngIf="currentView !== 'year'"
               (click)="showPicker('year')">{{dateShowModels.year}}</span>
@@ -63,7 +63,7 @@ import {ElDatePickerPanel} from '../date-picker/picker-panel';
             <span class="el-date-picker__header-label" *ngIf="currentView === 'year'">
               {{dateShowModels.yearRange[0]}} - {{dateShowModels.yearRange[1]}}
             </span>
-            
+
             <span class="el-date-picker__header-label"
               [class.active]="currentView === 'month'"
               (click)="showPicker('month')"
@@ -102,7 +102,7 @@ import {ElDatePickerPanel} from '../date-picker/picker-panel';
           <!--(click)="confirm()">667</button>-->
       <!--</div>-->
       <div class="time-footer-wrapper" style="float: right;padding: 0px 10px 10px 0px;">
-          <el-button (click)="emitClose()" size="mini">Ok</el-button>    
+          <el-button (click)="emitClose()" size="mini">Ok</el-button>
       </div>
     </div>
   `
@@ -111,10 +111,10 @@ export class ElDateTimePickerPanel extends ElDatePickerPanel implements OnInit, 
 
   @Output()
   closePanel : EventEmitter<any> = new EventEmitter();
-  public hours: Array<string>;
-  public minutes: Array<string>;
-  public hour: string;
-  public minute: string;
+  hours: Array<string>;
+  minutes: Array<string>;
+  hour: string;
+  minute: string;
 
   /**
    * on Init implementation
